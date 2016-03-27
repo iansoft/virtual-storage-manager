@@ -1,5 +1,8 @@
 $(function(){
-        CheckClusterExist();
+    CheckClusterExist();
+    $("#splash")[0].style.backgroundColor="#eee";
+    $(".sidebar")[0].style.minHeight=$(window).height()+"px";
+    $(".sidebar")[0].style.backgroundColor="#f9f9f9";
 })
 
 function CheckClusterExist(){
